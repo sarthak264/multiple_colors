@@ -26,6 +26,33 @@ body {
 .box{
     min-width: 230px;
     min-height: 200px;
+    display: grid;
+    place-items: center;
+}
+.box:hover button{
+    /* display: inline-block; */
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+}
+.box_content{
+    width: 60%;
+    text-align: center;
+}
+input[type="text"]{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+}
+input[type="text"]:focus{
+    outline: none;
+}
+.box_content button{
+    padding: 0.2rem 0.7rem;
+    font-size: 1.5rem;
+    margin-top: 0.8rem;
+    /* display: none; */
+    opacity: 0;
 }
 
 /* Button Section Styling */
