@@ -1,0 +1,46 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* Base Styles */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  overflow-x: hidden;
+}
+
+/* Palette Section Styling */
+.palette_container{
+    background-color: blueviolet;
+    width: 100vw;
+    min-height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px,1fr));
+}
+
+.box{
+    min-width: 230px;
+    min-height: 200px;
+}
+
+/* Button Section Styling */
+.button_container{
+    background: rgba(0, 0, 0, 0.747);
+    width: 100vw;
+    min-height: 10vh;
+    display: grid;
+    place-items: center;
+}
+#btn{
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+    background: aquamarine;
+}
