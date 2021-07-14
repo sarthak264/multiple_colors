@@ -70,4 +70,6 @@ input[type="text"]:focus{
     font-weight: 600;
     font-size: 1.2rem;
     background: aquamarine;
+    cursor: pointer;
+    user-select: none;
 }
